@@ -318,7 +318,7 @@ For running 2 parallel on same configuration-: add flag  -c 2
 C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  -c 2  "lambdatest:Chrome @80.0:Windows 10" "test.js"
 ```
 
-Similarly you can  run  N   number of tests in parallel tests on same configuration( N depends upon the plan subscription)
+Similarly you can  run  N   number of tests in parallel tests on same configuration( N depends upon the plan subscription) 
 
 **Note:** The total parallel sessions should be less than or equals to the subscribed plan.
 

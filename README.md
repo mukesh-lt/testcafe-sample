@@ -1,4 +1,4 @@
-#  TestCafe Integration With LambdaTest
+#  TestCafe Integration With LambdaTest 
 
 ![TestCafe Integration With LambdaTest](https://cdn.lambdatest.com/support/docs/wp-content/uploads/2019/08/npm-testcafe-integration.jpg)
 
@@ -309,16 +309,16 @@ Assertions passed and the test succeeded.
 
 ## Parallel Testing for Testcafe JavaScript
 
-`For 2 parallel tests with same configurations`
-
+`For 2 parallel tests with same configurations` 
+ 
 For running 2 parallel on same configuration-: add flag  -c 2
  Here c 2( concurrency 2) signifies you are  running 2 parallel tests on same configuration
 
 ```
-C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  -c 2  "lambdatest:Chrome @102.0:Windows 10" "test.js"
-```
+C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  -c 2  "lambdatest:Chrome @80.0:Windows 10" "test.js"
+``` 
 
-Similarly you can  run  N   number of tests in parallel tests on same configuration( N depends upon the plan subscription)
+Similarly you can  run  N   number of tests in parallel tests on same configuration( N depends upon the plan subscription) 
 
 **Note:** The total parallel sessions should be less than or equals to the subscribed plan.
 

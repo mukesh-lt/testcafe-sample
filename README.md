@@ -310,7 +310,7 @@ Assertions passed and the test succeeded.
 ## Parallel Testing for Testcafe JavaScript
 
 `For 2 parallel tests with same configurations` 
-
+ 
 For running 2 parallel on same configuration-: add flag  -c 2
  Here c 2( concurrency 2) signifies you are  running 2 parallel tests on same configuration
 

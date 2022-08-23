@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: engineerd/setup-kind@v0.14.0
+    - uses: engineerd/setup-kind
     - name: Install jq
       run: |
         sudo apt-get install jq
